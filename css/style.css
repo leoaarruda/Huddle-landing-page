@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
+
+:root {
+    --roxo: #674BAF;
+    --branco: #FFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--roxo);
+    margin-top: -14px;
+    color: var(--branco);
+}
+
+#background {
+    position: absolute;
+    margin-top: -55px;
+}
+
+#logo {
+    margin: 70px 0 0 75px;
+}
+
+#principal {
+    position: relative;
+    display: flex;
+    width: 1150px;
+    margin: 85px 0 0 70px;
+    z-index: 1;
+}
+
+#principal h1, p, button {
+    font-family: 'Poppins', sans-serif;
+}
+
+#principal h1 {
+    width: 500px;
+    font-weight: bolder;
+    font-size: 2.4em;
+    line-height: 55px;
+    letter-spacing: 2px;
+    padding-left: 15px;
+}
+
+#principal p {
+    width: 455px;
+    margin-left: 10px;
+    font-size: 0.9em;
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+
+#text {
+    margin: 50px;
+}
+
+#register {
+    width: 190px;
+    height: 55px;
+    margin-left: 10px;
+    font-size: 16px;
+    margin-top: 25px;
+    border-radius: 320px;
+    color: var(--roxo);
+}
+
+footer a {
+    font-size: 1em;
+    color: #FFF;
+    width: 50px;
+    margin: 30px 10px;
+    float: right;
+}
+
+.borda {
+    border: 2px solid var(--branco);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
