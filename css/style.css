@@ -9,6 +9,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 body {
@@ -55,7 +56,6 @@ body {
     line-height: 30px;
 }
 
-
 #text {
     margin: 50px;
 }
@@ -70,12 +70,16 @@ body {
     color: var(--roxo);
 }
 
-footer a {
+footer {
     font-size: 1em;
-    color: #FFF;
-    width: 50px;
+    display: flex;
+    justify-content: end;
+    cursor: pointer;
+}
+
+footer a {
+    color: var(--branco);
     margin: 30px 10px;
-    float: right;
 }
 
 .borda {
@@ -87,4 +91,5 @@ footer a {
     text-decoration: none;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
