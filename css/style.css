@@ -14,6 +14,7 @@
 
 body {
     background-color: var(--roxo);
+    max-width: 1400px;
     margin-top: -14px;
     color: var(--branco);
 }
@@ -30,17 +31,21 @@ body {
 #principal {
     position: relative;
     display: flex;
-    width: 1150px;
     margin: 85px 0 0 70px;
     z-index: 1;
+    width: 100hv;
+}
+
+#principal img {
+    max-height: 506px;
 }
 
 #principal h1, p, button {
     font-family: 'Poppins', sans-serif;
+
 }
 
 #principal h1 {
-    width: 500px;
     font-weight: bolder;
     font-size: 2.4em;
     line-height: 55px;
@@ -49,7 +54,6 @@ body {
 }
 
 #principal p {
-    width: 455px;
     margin-left: 10px;
     font-size: 0.9em;
     margin-top: 20px;
@@ -75,6 +79,8 @@ footer {
     display: flex;
     justify-content: end;
     cursor: pointer;
+    max-width: 1345px;
+    min-width: 404px;
 }
 
 footer a {
@@ -92,4 +98,32 @@ footer a {
     justify-content: center;
     align-items: center;
     cursor: pointer;
+}
+
+@media (min-width: 576px) and (max-width: 1076px) {
+    #principal {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 575.98px) {
+
+    #principal {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #principal img {
+        max-width: 403px;
+        margin-right: 40px;
+        border: 1px solid tomato;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+    }
 }
