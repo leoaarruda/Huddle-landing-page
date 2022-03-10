@@ -100,15 +100,9 @@ footer a {
     cursor: pointer;
 }
 
-@media (min-width: 576px) and (max-width: 1076px) {
-    #principal {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-}
 
 @media (max-width: 575.98px) {
+
 
     #principal {
         flex-direction: column;
@@ -119,11 +113,10 @@ footer a {
     #principal img {
         max-width: 403px;
         margin-right: 40px;
-        border: 1px solid tomato;
     }
 
     footer {
         display: flex;
-        justify-content: center;
+        justify-content: end;
     }
 }
