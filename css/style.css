@@ -50,7 +50,6 @@ body {
     font-size: 2.4em;
     line-height: 55px;
     letter-spacing: 2px;
-    padding-left: 15px;
 }
 
 #principal p {
@@ -101,22 +100,58 @@ footer a {
 }
 
 
-@media (max-width: 575.98px) {
+@media (max-width: 575.98px) and (min-width:  375px){
 
+    body {
+        max-width: 757px;
+        max-height: 629px ;
+    }
+
+    #logo {
+        width: 220px;
+        margin: 70px 0 0 75px;
+    }
+    
 
     #principal {
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        text-align: center;
+    }
+
+    #principal h1 {
+        width: 400px;
+        margin-top: 70px;
+        font-size: 1.8em;
+        line-height: 35px;
+        letter-spacing: 2px;
+        margin-left: -35px;
+    }
+
+    #principal p {
+        margin-left: 10px;
+        font-size: 1.2em;
+        margin-top: 20px;
+        width: 400px;
+        font-weight: 400;
+        margin-left: -35px;
     }
 
     #principal img {
         max-width: 403px;
         margin-right: 40px;
     }
+    
+    #register {
+        width: 250px;
+        height: 50px;
+        margin: 15%;
+    }
 
     footer {
         display: flex;
-        justify-content: end;
+        justify-content: center;
+        margin-left: 80px;
     }
+
+    
 }
