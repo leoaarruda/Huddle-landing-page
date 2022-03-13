@@ -100,7 +100,7 @@ footer a {
 }
 
 
-@media (max-width: 575.98px) and (min-width:  375px){
+@media (width:  375px){
 
     body {
         max-width: 757px;
